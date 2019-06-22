@@ -1,0 +1,136 @@
+h1	{
+	font-family: Avenir;
+	font-size: 250%;
+	color: #2B2929;
+	margin-left: 2%;
+	margin-top: 3%;
+	line-height: 40%;
+	float: left;
+}
+
+h3	{
+	font-family: Avenir;
+	font-size: 18px;
+	color: #4C4B4B;
+	margin-left: 2%;
+	margin-top: -2%;
+	float: left;
+}
+
+a {
+  color: #4C4B4B;
+  text-decoration: none; /* no underline */
+}
+
+.dropbtn {
+	font-family: Avenir;
+	color: #4C4B4B;
+}
+
+#rose {
+    display:block;
+	margin-left:auto;
+	margin-right:auto;
+	margin-top: 5%;
+	height: 40%;
+    width: 40%;
+}
+
+#flowers {
+	margin-left: 2%;
+	margin-top: 5%;
+	height: 40%;
+    width: 40%;
+    float: left;
+}
+
+#bio {
+	float: left;
+	margin-left: 5%;
+	width: 50%;
+}
+
+.center img {        
+  display:block;
+  margin-left:auto;
+  margin-right:auto;
+}
+
+nav {
+	margin-top: 2%;
+}
+
+nav, div, p {
+	font-family: Avenir;
+	font-weight: bold;
+	color: #4C4B4B;
+	font-size: 18px;
+}
+
+div
+{
+	float: left;
+	margin-right: 10%;
+}
+
+#links {
+	margin-top: 1%;
+}
+
+span {
+	position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -20px;
+    display:none;
+}
+
+#link {
+	margin-right: 40px;
+}
+
+#links {
+	display: inline-block
+}
+
+li {
+    float:left;
+    clear:left;
+    margin-top: 3%;
+}
+
+ul {
+    float:left;
+    clear:left;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    
+}
+
+.dropdown-content a {
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+input, button, submit
+{
+  border:none;
+  background-color: white;
+  font-size: 18px;
+  font-weight: bold;
+}
