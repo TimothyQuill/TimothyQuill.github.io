@@ -50,6 +50,12 @@ a {
 	width: 50%;
 }
 
+#food_paragraph {
+	float: left;
+	margin-left: 2%;
+	width: 50%;
+}
+
 .center img {        
   display:block;
   margin-left:auto;
