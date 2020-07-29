@@ -1,4 +1,4 @@
-#logo {
+#logo	{
 	font-family: Avenir;
 	font-size: 250%;
 	color: #2B2929;
@@ -8,7 +8,7 @@
 	float: left;
 }
 
-#sub_logo {
+#sub_logo	{
 	font-family: Avenir;
 	font-size: 18px;
 	color: #4C4B4B;
@@ -18,8 +18,8 @@
 }
 
 a {
-	color: #4C4B4B;
-	text-decoration: none; /* no underline */
+  color: #4C4B4B;
+  text-decoration: none; /* no underline */
 }
 
 .dropbtn {
@@ -28,20 +28,20 @@ a {
 }
 
 #rose {
-	display:block;
+    display:block;
 	margin-left:auto;
 	margin-right:auto;
 	margin-top: 5%;
 	height: 40%;
-	width: 40%;
+    width: 40%;
 }
 
 #flowers {
 	margin-left: 2%;
 	margin-top: 5%;
 	height: 40%;
-	width: 40%;
-	float: right;
+    width: 40%;
+    float: right;
 }
 
 #bio {
@@ -57,9 +57,9 @@ a {
 }
 
 .center img {        
-	display:block;
-	margin-left:auto;
-	margin-right:auto;
+  display:block;
+  margin-left:auto;
+  margin-right:auto;
 }
 
 nav {
@@ -73,27 +73,29 @@ nav, div, p {
 	font-size: 18px;
 }
 
-div {
+div
+{
 	float: left;
 	margin-right: 10%;
 }
 
 #links {
 	margin-top: 1%;
+	
 }
 
 #text_body {
 	margin-top: 10%;
 	margin-left: 5%;
+	
 }
 
 span {
 	position: absolute;
-	top: 100%;
-	left: 50%;
-	margin-left: -20px;
-	display:none;
-	background-color: white;
+    top: 100%;
+    left: 50%;
+    margin-left: -20px;
+    display:none;
 }
 
 #link {
@@ -105,38 +107,43 @@ span {
 }
 
 li {
-	float:left;
-	clear:left;
-	margin-top: 3%;
+    float:left;
+    clear:left;
+    margin-top: 3%;
 }
 
 ul {
-	float:left;
-	clear:left;
+    float:left;
+    clear:left;
 }
 
 .dropdown {
-	position: relative;
-	display: inline-block;
+    position: relative;
+    display: inline-block;
 }
 
 .dropdown-content {
-	display: none;
-	position: inline-block;
+    display: none;
+    position: absolute;
+    
 }
 
 .dropdown-content a {
-	text-decoration: none;
-	display: inline-block;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {
 }
 
 .dropdown:hover .dropdown-content {
-	display: inline-block;
+    display: block;
 }
 
-input, button, submit {
-	border:none;
-	background-color: white;
-	font-size: 18px;
-	font-weight: bold;
+input, button, submit
+{
+  border:none;
+  background-color: white;
+  font-size: 18px;
+  font-weight: bold;
 }
