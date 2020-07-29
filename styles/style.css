@@ -121,7 +121,7 @@ ul {
 
 .dropdown-content {
 	display: none;
-	position: absolute;
+	position: inline-block;
 }
 
 .dropdown-content a {
